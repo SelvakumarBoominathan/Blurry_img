@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: black;
 }
 
 body {
@@ -8,8 +7,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  min-height: 100dvh;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: white;
+
   overflow: hidden;
+  margin: 0;
+  background-color: black;
+}
+
+.bg {
+  background: url("https://th.bing.com/th/id/R.b0e8cd7e96ce7bceb2e2d69be93c829b?rik=UNX6pzvqC%2b9KcA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f4%2f5%2f1443714-full-size-1024x768-wallpapers-hd-2048x1536.jpg&ehk=To6zHwKjg5okVhR65s4T84l6cBcJ6%2bKpaatPJk43g%2fg%3d&risl=&pid=ImgRaw&r=0")
+    no-repeat center center/cover;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100dvh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-txt {
+  font-size: 50px;
+  color: white;
 }
