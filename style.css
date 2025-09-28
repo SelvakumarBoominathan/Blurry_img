@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  overflow: hidden;
+}
